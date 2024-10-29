@@ -33,15 +33,15 @@ https://www.pgyer.com/zcbj-android
 苹果商店：https://itunes.apple.com/cn/app/id1503438222
 ##### 业务系统 #####
 ——测试环境——
-运营平台：https://testboss.eleph-tech.com/
-服务商平台：https://testagent.eleph-tech.com/
+运营平台：https://testagent.zcbj.one-cm.com
+服务商平台：https://testboss.zcbj.one-cm.com
 ——生产业务环境——
 官网：https://www.eleph-tech.com/
-运营平台：https://boss.eleph-tech.com/
-服务商平台：https://agent.eleph-tech.com/
+运营平台：https://boss.zcbj.one-cm.com
+服务商平台：https://agent.zcbj.one-cm.com
 ——生产运维环境——
-SQL审核平台：https://sql.eleph-tech.com/
-上线发布平台：https://jenkins.eleph-tech.com/
+SQL审核平台：https://sql.zcbj.one-cm.com
+上线发布平台：https://jenkins.zcbj.one-cm.com
 
 ##### 测试环境 #####
 -----ECS-----
@@ -69,7 +69,7 @@ IP：10.1.1.244
 ssh developer@10.10.10.151
 
 10.10.10.100（页面）
-10.10.10.201（ftp）
+10.10.10.201（ftp、）
 10.10.10.151（对外接口、服务商APP后台、服务商WEB后台）
 10.10.10.152（对外接口、定时、运营后台）
 
