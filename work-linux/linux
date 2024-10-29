@@ -1,0 +1,77 @@
+
+##### 基本信息 #####
+公司名称：平头象（北京）数字科技有限公司
+官网：www.eleph-tech.com
+##### 展业工具APP信息 #####
+APP名称：招财笔记
+APP包名：com.pingtouxiang.zcbj
+安卓签名：212641A48894F696420F44F39550614D
+——极光——
+AppKey：85c0d9ab9e738eb1d826cef0
+Master Secret：9b53cd3e4aebce2208278ff1
+——微信开发平台——
+AppID：wxb0205cbff3588361
+AppSecret：acc96a811aa73d0577e6e9caf8ae546d
+——腾讯Bugly平台——
+==安卓==
+App ID：7f70c68658
+App Key：1919c4ca-6dd4-42f9-bb33-47d7e68c2b26
+==IOS==
+App ID：4d2011f589
+App Key：87b5e818-4944-49ea-87cb-1f1f893524c0
+——百度智能云——
+==文字识别==
+AppID：18655770
+API Key：knxP1krOuv47GP9FeRPutOTU
+##### 招财笔记安装包 #####
+——测试包(密码1)——
+https://www.pgyer.com/zcbj_cs_android
+https://www.pgyer.com/zcbjCS_iOS
+——生产包——
+https://www.pgyer.com/zcbj-IOS
+https://www.pgyer.com/zcbj-android
+苹果商店：https://itunes.apple.com/cn/app/id1503438222
+##### 业务系统 #####
+——测试环境——
+运营平台：https://testboss.eleph-tech.com/
+服务商平台：https://testagent.eleph-tech.com/
+——生产业务环境——
+官网：https://www.eleph-tech.com/
+运营平台：https://boss.eleph-tech.com/
+服务商平台：https://agent.eleph-tech.com/
+——生产运维环境——
+SQL审核平台：https://sql.eleph-tech.com/
+上线发布平台：https://jenkins.eleph-tech.com/
+
+##### 测试环境 #####
+-----ECS-----
+IP：123.56.42.35【公网】/10.1.1.244【私网】
+部署路径：/opt/webapps
+	前端项目：/front
+	后端项目：/srv
+部署用户：developer/1234qwerQWER
+-----数据库-----
+地址：rm-2ze4g1114g8110zq2po.mysql.rds.aliyuncs.com:3306
+数据库：test_agent
+账号：test_agent/1234Qwer
+-----Redis-----
+IP：10.1.1.244
+端口：6379
+密码：1234Qwer
+-----ES-----
+IP：10.1.1.244
+端口：9300
+
+##### 生产环境 #####
+
+123.56.95.9 developer/1234QwerDEV
+
+ssh developer@10.10.10.151
+
+10.10.10.100（页面）
+10.10.10.201（ftp）
+10.10.10.151（对外接口、服务商APP后台、服务商WEB后台）
+10.10.10.152（对外接口、定时、运营后台）
+
+
+测试环境
