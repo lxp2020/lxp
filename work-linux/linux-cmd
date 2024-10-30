@@ -6,4 +6,6 @@ du -sh /opt/*
 du -sh /opt/*  | sort -h
 
 -- 查看进程使用内存
-ps aux --sort -rss | head -n 15 | awk '{print substr($1"        ",1,12),substr($2"     ",1,6),substr($3"      ",1,6),substr($4"      ",1,6),substr($5/1024"M        ",1,10),substr($6/1024"M        ",1,10),$7,substr($8"     ",1,5),substr($9"     ",1,6),substr($10"          ",1,10),$11}'
+ps aux --sort -rss | head -n 15 | awk '{print substr($1"        ",1,12),substr($2"     ",1,6),substr($3"      ",1,6),substr($4"      ",1,6),substr($5/1024"M        ",1,10),substr($6/1024"M        ",1,10),substr($9"     ",1,6),substr($10"          ",1,10),$11}'
+
+
